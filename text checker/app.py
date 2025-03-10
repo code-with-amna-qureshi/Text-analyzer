@@ -17,7 +17,7 @@ def set_bg(image_file):
     st.markdown(bg_image, unsafe_allow_html=True)
 
 # Call the function with your local image file
-set_bg(r"C:\Users\HAROON TRADERS\Desktop\text checker\softcolor.jpg")
+set_bg("text checker/softcolor.jpg")
 
 st.title("📜  Text Analyzer")
 st.write("This is a simple text analyzer that counts words, characters, spaces, vowels, and allows word replacement. ✍️")
